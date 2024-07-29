@@ -286,3 +286,7 @@ for(i=0;i<n;i++){
   if(name[i]%2==0)
   console.log(name[i]);
 }
+
+let a =10
+let b =20
+console.log(a+b);
