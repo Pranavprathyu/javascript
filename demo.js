@@ -2,8 +2,8 @@
 // console.log(typeof(num));
 
 
- 
- 
+
+
 
 
 
@@ -34,7 +34,7 @@
 // console.log(b);
 // a= a-b
 // console.log(a);
-    
+
 
 
 
@@ -169,9 +169,9 @@
 //         console.log("Number is ZERO");
 //     }
 
-    
 
-  
+
+
 // let a = ["h","e","l","l","o","w","o","r","l","d"];
 // let a = "helloworld"
 // let a = [1,23,4,4,6]
@@ -240,7 +240,7 @@
 //  for(i=1;i<=10;i++){
 
 //     console.log(`${a} X ${i} = ${a*i}`);
-  
+
 //  }
 
 
@@ -280,13 +280,51 @@
 //   console.log(name[i]);
 // }
 
-const name =[11,23,4,55,32,8]
-let n =name.length
-for(i=0;i<n;i++){
-  if(name[i]%2==0)
-  console.log(name[i]);
-}
+// const name =[11,23,4,55,32,8]
+// let n =name.length
+// for(i=0;i<n;i++){
+//   if(name[i]%2==0)
+//   console.log(name[i]);
+// }
 
-let a =10
-let b =20
-console.log(a+b);
+// const num =[2,7,11,15]
+// let n =num.length
+// for(i=0;i<n-1;i++){
+//   (j=i+1,j+1)
+//     if (num[i]+num[j]= t)
+//       console.log(i;j);
+// }
+
+
+// let nums = [2, 7, 11, 15,]
+// let n = nums.length
+// let t = 9
+
+// for (i= 0; i < n; i++) {
+//   for (j = i + 1; j < n; j++) {
+//     if (nums[i] + nums[j] == t) {
+
+//       console.log(i, j);
+//     }
+//   }
+// }
+
+// let nums = [3,2,4,3]
+// let n = nums.length
+// let t = 6 
+//  for (i=0; i< n; i++){
+//   for (j= i+1; j<n; j++){
+//     if (nums[i] + nums[j] == t){
+//       console.log(i,j);
+//     }
+//   }
+//  }
+
+let a = "hello"
+
+
+let c = a
+let b = a+' '+"world"
+
+console.log(c);
+console.log(b);
