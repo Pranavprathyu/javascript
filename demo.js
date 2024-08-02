@@ -320,11 +320,119 @@
 //   }
 //  }
 
-let a = "hello"
+// let a = "hello"
 
 
-let c = a
-let b = a+' '+"world"
+// let c = a
+// let b = a+' '+"world"
 
-console.log(c);
-console.log(b);
+// console.log(c);
+// console.log(b);
+
+// let person  = {            
+//     name:"john",
+//     age:40,
+//     gender:"male",
+//     person:{
+//         name:"hello",
+//         age:34,
+//         gender:"nmale"
+//     }//id:2
+// }// id:1
+
+// // console.log(person.name,person.age,person.gender);
+
+// // console.log(person["age"]);
+
+// let a = person
+
+// a.person.name="ahsjkhd"
+
+// console.log(a);
+// console.log(person);
+
+
+// const original = {
+//     name: 'Alice',
+//     age: 30,
+//     address: {
+//       city: 'Wonderland',
+//       zip: '12345'
+//     }
+//   };
+
+// const shallowCopy = Object.assign({}, original);
+// shallowCopy.name = 'Charlie'; // Change the name in the shallow copy
+
+
+// console.log(original.name); // 'Alice'
+// console.log(shallowCopy.name); // 'Charlie'
+
+// // Modifying a nested object
+// shallowCopy.address.city = 'New Wonderland';
+// console.log(original.address.city); // 'New Wonderland' (also changed)
+// console.log(shallowCopy.address.city); // 'New Wonderland'
+
+// console.log(shallowCopy);
+// console.log(original);
+
+// const shallowCopy = {...original}
+
+// shallowCopy.name="sahdkajsd"
+
+// console.log(shallowCopy);
+// console.log(original);
+
+
+// const deepCopy = JSON.parse(JSON.stringify(original));
+// deepCopy.name = 'David'; // Change the name in the deep copy
+
+// console.log(original.name); // 'Alice'
+// console.log(deepCopy.name); // 'David'
+
+// // Modifying a nested object
+// deepCopy.address.city = 'New Wonderland';
+// console.log(original.address.city); // 'Wonderland' (unchanged)
+// console.log(deepCopy.address.city); // 'New Wonderland'
+
+
+// let a={apple:1,orange:2,mango:3}
+ 
+// let value =[]
+// for (let i in a){
+//     value.push(a[i])
+// }
+// let target = value.reduce((a,b)=>a>b?a:b)
+// console.log(target);
+
+
+// let num = [1,3,5]
+// let sum = 135
+//  for (let i = 0; i < a.length; i++) {
+//   if sum = 
+//  }
+
+//  console.log(sum);
+
+
+let num = 135
+let NumStr = num.toString()
+let count =1
+let output =0
+for(i in NumStr){
+
+    output= output+Number(NumStr[i])**count
+    count++
+    
+}
+console.log(output);
+
+ output = 135 
+
+ if (Checkdisarium  = 135){
+    console.log(`${135} is a disarium number`);
+ }
+else {
+    console.log(`${135} is not a disarium number`);
+}
+
