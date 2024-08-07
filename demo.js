@@ -415,24 +415,37 @@
 //  console.log(sum);
 
 
-let num = 135
-let NumStr = num.toString()
-let count =1
-let output =0
-for(i in NumStr){
+// let num = 34
+// let NumStr = num.toString()
+// let count =1
+// let output =0
+// for(i in NumStr){
 
-    output= output+Number(NumStr[i])**count
-    count++
+//     output= output+Number(NumStr[i])**count
+//     count++
     
-}
-console.log(output);
+// }
 
- output = 135 
+//  if (num  == output){
+//     console.log(`${output} is a disarium number`);
+//  }
+// else {
+//     console.log(`${output} is not a disarium number`);
+// }
 
- if (Checkdisarium  = 135){
-    console.log(`${135} is a disarium number`);
- }
-else {
-    console.log(`${135} is not a disarium number`);
+let a = {
+    name : "hello",
+    age:12,
+    person:{
+        name:"ajskd",
+        age:34
+    }
 }
+
+
+let deepclone = structuredClone(a)
+// console.log(deepclone);
+deepclone.person.name="welcome"
+console.log(deepclone);
+console.log(a);
 
