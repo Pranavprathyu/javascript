@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+   let data = []; // Make 'data' a global variable
+
+function add() {
+    let taskid = parseInt(prompt('Enter an ID'));
+    let taskname = prompt('Enter a task name');
+    let taskdes = prompt('Enter details of the task');
+    let duedate = prompt('Enter a date');
+
+    let list = {
+        id: taskid,
+        name: taskname,
+        description: taskdes,
+        duedate: duedate,
+    };
+
+    data.push(list); // Add the task to the global 'data' array
+
+    console.log(data);
+}
+
+function view() {
+    if (data.length === 0) {
+        console.log('No tasks available.');
+        return;
+    }
+
+    console.log('Tasks:');
+    data.forEach(task => {
+        console.log(`ID: ${task.id}, Name: ${task.name}, Description: ${task.description}, Due Date: ${task.duedate}`);
+    });
+}
+
+function menu() {
+    let choice;
+    do {
+        choice = prompt('Enter a choice (1: Add, 2: View, 3: Exit)');
+
+        switch (choice) {
+            case "1":
+                add();
+                break;
+            case "2":
+                view();
+                break;
+            case "3":
+                console.log('Exiting...');
+                break;
+            default:
+                console.log('Invalid choice. Please enter 1, 2, or 3.');
+                break;
+        }
+    } while (choice != "3");
+}
+
+menu();
+
+
+        // let listOne = {
+        //     TaskId: 101,
+        //     TaskName: "write report",
+        //     TaskDescription: "complete the monthly report",
+        //     Duedate:"10-08-2024"
+        // }
+        // let listTwo ={
+        //     TaskId: 102,
+        //     TaskName: "Meeting",
+        //     TaskDescription: "project kick of meeting",
+        //     Duedate:"09-08-2024"
+
+        // }
+        // let listThree ={
+        //     TaskId: 103,
+        //     TaskName: "code review",
+        //     TaskDescr
+        // }
+
+
+
+
+    </script>
+</body>
+
+</html>

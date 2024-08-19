@@ -69,10 +69,10 @@ console.log('-------------------------------------------');
 // let firstDose = covid_data.sort((a,b)=> {return a[5]-b[5]})
 // console.log(firstDose);
 
-console.log('-------------------------------------------');
+// console.log('-------------------------------------------');
 
-//7. Print Thrissur details - 
-let District = covid_data.filter((a)=>a[1]=="Thrissur")
-console.log(District);
+// //7. Print Thrissur details - 
+// let District = covid_data.filter((a)=>a[1]=="Thrissur")
+// console.log(District);
 
-console.log('-------------------------------------------');
+// console.log('-------------------------------------------');

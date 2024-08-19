@@ -397,7 +397,7 @@
 
 
 // let a={apple:1,orange:2,mango:3}
- 
+
 // let value =[]
 // for (let i in a){
 //     value.push(a[i])
@@ -423,7 +423,7 @@
 
 //     output= output+Number(NumStr[i])**count
 //     count++
-    
+
 // }
 
 //  if (num  == output){
@@ -433,19 +433,49 @@
 //     console.log(`${output} is not a disarium number`);
 // }
 
-let a = {
-    name : "hello",
-    age:12,
-    person:{
-        name:"ajskd",
-        age:34
-    }
-}
+// let a = {
+//     name : "hello",
+//     age:12,
+//     person:{
+//         name:"ajskd",
+//         age:34
+//     }
+// }
 
 
-let deepclone = structuredClone(a)
+// let deepclone = structuredClone(a)
+// // console.log(deepclone);
+// deepclone.person.name="welcome"
 // console.log(deepclone);
-deepclone.person.name="welcome"
-console.log(deepclone);
-console.log(a);
+// console.log(a);
 
+
+// 1 ; you are given an array of integers. your task is to return a new array that contains only
+// the elements at even indices of the orginal array
+
+// let a =[1,2,3,4,5,6]
+
+//  for(i=0;i<a.length;i++){
+//   if(i%2==0){
+//     console.log(a[i]);
+//   }
+//  }
+// for(i=0;i<a.length;i++){
+//     if(i%2!=0){
+//       console.log(a[i]);
+//     }
+//    }
+
+// you are given a string.your task to remove "o"
+
+let a = "hello world"
+let t = "o"
+let string = ""
+for (let i in a) {
+
+    if (a[i] !== t) {
+        string+=a[i]  //strig ="hell wrld"
+    }
+    }
+    console.log(string);
+    
